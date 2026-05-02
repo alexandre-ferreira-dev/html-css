@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="40" height="40">
+
+  <!--
+    =====================================================
+    FICHEIRO SVG — logo.svg
+    Ícone personalizado para Alexandre Ferreira
+
+    O SVG é um desenho feito com código.
+    Em vez de pixels (como JPG/PNG), usa formas matemáticas.
+    Por isso fica sempre nítido, seja pequeno ou grande!
+
+    Como funciona:
+    - viewBox="0 0 100 100" → a área de desenho é 100x100 unidades
+    - width/height → tamanho real na página (pode mudar no CSS)
+    =====================================================
+  -->
+
+  <!-- FUNDO: rectângulo arredondado com cor teal -->
+  <rect
+    x="0" y="0"
+    width="100" height="100"
+    rx="22"
+    fill="#2dd4bf"
+  />
+  <!--
+    x="0" y="0" → começa no canto superior esquerdo
+    width/height → tamanho do rectângulo
+    rx="22" → arredonda os cantos (quanto maior, mais arredondado)
+    fill → cor de preenchimento (teal)
+  -->
+
+  <!-- LETRA "A" -->
+  <text
+    x="50" y="56"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="Poppins, sans-serif"
+    font-size="38"
+    font-weight="700"
+    fill="white"
+    letter-spacing="-2"
+  >AF</text>
+  <!--
+    x="50" y="56" → posição do texto (centro horizontal, ligeiramente abaixo do centro)
+    text-anchor="middle" → centraliza o texto horizontalmente
+    dominant-baseline="middle" → centraliza o texto verticalmente
+    font-size="38" → tamanho das letras
+    font-weight="700" → letras a negrito
+    fill="white" → letras brancas
+    letter-spacing="-2" → aproxima ligeiramente as letras
+  -->
+
+  <!-- LINHA DECORATIVA em baixo das letras -->
+  <rect
+    x="28" y="68"
+    width="44" height="4"
+    rx="2"
+    fill="rgba(255,255,255,0.4)"
+  />
+  <!--
+    Uma linha fina branca semi-transparente por baixo das letras
+    fill="rgba(255,255,255,0.4)" → branco com 40% de opacidade
+  -->
+
+</svg>
